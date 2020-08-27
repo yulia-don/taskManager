@@ -23,6 +23,8 @@ GET     /task                                                CTask.GetAllTask
 POST    /task/create                                         CTask.CreateTask
 POST    /task/update                                         CTask.UpdateTask
 POST    /task/delete                                         CTask.DeleteTask
+POST    /people                                              CPeople.GetOnePeople
+POST    /people/create                                       CPeople.CreatePeople
 
 
 # Ignore favicon requests

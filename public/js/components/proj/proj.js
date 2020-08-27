@@ -71,6 +71,8 @@ export class projectComp {
       getViewData(item.Номер);
       clearInfo();
       $$('content3').show();
+      $$('content4').hide();
+      $$('exitBtn').show();
     }
   };
 
